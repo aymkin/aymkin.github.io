@@ -1,14 +1,14 @@
 # Site settings
-title:       N.A.Dev
+title:       My Web Way
 email:       aymkin@gmail.com
 author:      Oleksandr Naumkin
-description: "Personal blog-notepad: how to become a front-end coder"
+description: "Web developer: from zero to hero"
 baseurl:     ""
-url:         "http://naumk.in"
+url:         ""
 date_format: "%b %-d, %Y"
 header_pages:
- - about.md
- - contact.html
+  - about.md
+  - contact.html
 
 # Google services
 google_verification:
@@ -21,15 +21,15 @@ bing_verification:
 
 # Optional features
 animated:             false
-show_related_posts:   false
-show_post_footers:    false
+show_related_posts:   true
+show_post_footers:    true
 show_social_icons:    true
 ajaxify_contact_form: false
 enable_mathjax: false
 extended_fonts: false
 enable_anchorjs: false
 # Preview image for social media aka og:image and twitter:image
-post_preview_image: false
+post_preview_image: true
 
 # Facebook Page integration
 # (for instant articles and other stuff)
@@ -69,7 +69,7 @@ telegram_username: aymkin
 vk_id:
 
 # Post sharing icons
-show_sharing_icons: false
+show_sharing_icons: true
 # Change to 'true' to enable individual icons
 share_facebook: true
 share_twitter: true
@@ -103,7 +103,7 @@ text:
   index:
     coming_soon: 'Coming soon...'
   contact:
-    email:    'Email Address'
+    email:    ''
     content:  'What would you like to say?'
     subject:  'New submission!'
     submit:   'Say Hello'
@@ -119,7 +119,7 @@ markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
-paginate:     4
+paginate:     10
 sass:
   style: compressed
 plugins:
